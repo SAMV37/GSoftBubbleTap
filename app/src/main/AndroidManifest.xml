@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ss.apps.mob.gsoft">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".start"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".lost"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Main"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_2"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_3"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".mods"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_2_lost"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_3_lost"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".language"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_4"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_4_lost"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_5_lost"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_5"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_6"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".level_6_lost"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

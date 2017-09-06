@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bubble Tap"
+        android:textSize="60dp"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:layout_marginTop="40dp"/>
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/start_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Start"
+                android:textColor="#ffffff"
+                android:onClick="onStart"
+                android:background="@drawable/real_button_style"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"/>
+            <Button
+                android:id="@+id/share_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Share"
+                android:textColor="#ffffff"
+                android:onClick="onShare"
+                android:background="@drawable/real_button_style"
+                android:layout_gravity="center"
+                android:layout_marginTop="27dp"/>
+            <Button
+                android:id="@+id/rate_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Rate"
+                android:textColor="#ffffff"
+                android:onClick="onRate"
+                android:background="@drawable/real_button_style"
+                android:layout_gravity="center"
+                android:layout_marginTop="27dp"/>
+
+
+
+            <Button
+                android:id="@+id/lang_btn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Language"
+                android:textColor="#ffffff"
+                android:onClick="on_lang"
+                android:background="@drawable/real_button_style"
+                android:layout_gravity="center"
+                android:layout_marginTop="27dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
